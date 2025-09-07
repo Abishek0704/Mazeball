@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage(' GitHub') {
+        stage(' GitHub checkout') {
             steps {
                 git 'https://github.com/naveenleon/Mazeball.git'
             }
